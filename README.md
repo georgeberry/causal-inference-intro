@@ -10,4 +10,4 @@ An Rmarkdown notebook generates this pdf, and also conducts some simulations alo
 
 This is a **work in progress**.
 
-Please contact me at `geb97@cornell.edu` or message me on Twitter `@george_berry` if you find errors.
+Please contact me at `geb97@cornell.edu` or message me on Twitter `@george_berry` if you find errors, or find elements unclear.
