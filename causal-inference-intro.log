@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 MAR 2019 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAR 2019 11:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1236,34 +1236,34 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 ) (./causal-inference-intro.aux)
 \openout1 = `causal-inference-intro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 166.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 166.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 168.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 166.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 168.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \microtypecontext on input line 166.
+LaTeX Info: Redefining \microtypecontext on input line 168.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -1312,7 +1312,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring OFF on input line 166.
+Package hyperref Info: Link coloring OFF on input line 168.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1320,9 +1320,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count146
 )
-LaTeX Info: Redefining \ref on input line 166.
-LaTeX Info: Redefining \pageref on input line 166.
-LaTeX Info: Redefining \nameref on input line 166.
+LaTeX Info: Redefining \ref on input line 168.
+LaTeX Info: Redefining \pageref on input line 168.
+LaTeX Info: Redefining \nameref on input line 168.
 (./causal-inference-intro.out) (./causal-inference-intro.out)
 \@outlinefile=\write5
 \openout5 = `causal-inference-intro.out'.
@@ -1354,276 +1354,276 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count153
-ABD: EveryShipout initializing macros [1
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 240.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 271.
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 169.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 271.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 169.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 271
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 169
 .
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 271
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 169
 .
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 271.
+(Font)              <12> on input line 169.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 271.
+(Font)              <8> on input line 169.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 271.
-LaTeX Font Info:    Try loading font information for U+msa on input line 271.
+(Font)              <6> on input line 169.
+LaTeX Font Info:    Try loading font information for U+msa on input line 169.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 271.
+LaTeX Font Info:    Try loading font information for U+msb on input line 169.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [2] [3] [4]
+) [1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 242.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 439.
+(Font)              <10> on input line 273.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 439.
+(Font)              <7> on input line 273.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 439.
-[5]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 525.
+(Font)              <5> on input line 273.
+[2] [3] [4] [5]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 527.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [6] [7]
 
-Package xcolor Warning: Incompatible color definition on input line 626.
+Package xcolor Warning: Incompatible color definition on input line 628.
 
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 628.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 630.
 
-Package xcolor Warning: Incompatible color definition on input line 651.
-
-
-Package xcolor Warning: Incompatible color definition on input line 651.
+Package xcolor Warning: Incompatible color definition on input line 653.
 
 
-Package xcolor Warning: Incompatible color definition on input line 656.
+Package xcolor Warning: Incompatible color definition on input line 653.
 
-LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 658
+
+Package xcolor Warning: Incompatible color definition on input line 658.
+
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 660
 .
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-Package xcolor Warning: Incompatible color definition on input line 661.
+Package xcolor Warning: Incompatible color definition on input line 663.
 
 
-Package xcolor Warning: Incompatible color definition on input line 661.
+Package xcolor Warning: Incompatible color definition on input line 663.
 
 
-Package xcolor Warning: Incompatible color definition on input line 670.
+Package xcolor Warning: Incompatible color definition on input line 672.
 
 
-Package xcolor Warning: Incompatible color definition on input line 674.
+Package xcolor Warning: Incompatible color definition on input line 676.
 
 
-Package xcolor Warning: Incompatible color definition on input line 674.
+Package xcolor Warning: Incompatible color definition on input line 676.
 
 
-Package xcolor Warning: Incompatible color definition on input line 682.
+Package xcolor Warning: Incompatible color definition on input line 684.
 
 
-Package xcolor Warning: Incompatible color definition on input line 686.
+Package xcolor Warning: Incompatible color definition on input line 688.
 
 
-Package xcolor Warning: Incompatible color definition on input line 686.
+Package xcolor Warning: Incompatible color definition on input line 688.
 
 [8]
 
-Package xcolor Warning: Incompatible color definition on input line 725.
+Package xcolor Warning: Incompatible color definition on input line 727.
 
 
-Package xcolor Warning: Incompatible color definition on input line 729.
+Package xcolor Warning: Incompatible color definition on input line 731.
 
 
-Package xcolor Warning: Incompatible color definition on input line 729.
+Package xcolor Warning: Incompatible color definition on input line 731.
 
 [9]
 
-Package xcolor Warning: Incompatible color definition on input line 768.
+Package xcolor Warning: Incompatible color definition on input line 770.
 
 
-Package xcolor Warning: Incompatible color definition on input line 783.
+Package xcolor Warning: Incompatible color definition on input line 785.
 
 
-Package xcolor Warning: Incompatible color definition on input line 783.
+Package xcolor Warning: Incompatible color definition on input line 785.
 
 
-Package xcolor Warning: Incompatible color definition on input line 792.
+Package xcolor Warning: Incompatible color definition on input line 794.
 
 
-Package xcolor Warning: Incompatible color definition on input line 796.
+Package xcolor Warning: Incompatible color definition on input line 798.
 
 
-Package xcolor Warning: Incompatible color definition on input line 796.
+Package xcolor Warning: Incompatible color definition on input line 798.
 
 
-Package xcolor Warning: Incompatible color definition on input line 806.
+Package xcolor Warning: Incompatible color definition on input line 808.
 
 
-Package xcolor Warning: Incompatible color definition on input line 811.
+Package xcolor Warning: Incompatible color definition on input line 813.
 
 
-Package xcolor Warning: Incompatible color definition on input line 811.
+Package xcolor Warning: Incompatible color definition on input line 813.
 
 
-Package xcolor Warning: Incompatible color definition on input line 820.
+Package xcolor Warning: Incompatible color definition on input line 822.
 
 
-Package xcolor Warning: Incompatible color definition on input line 824.
+Package xcolor Warning: Incompatible color definition on input line 826.
 
 
-Package xcolor Warning: Incompatible color definition on input line 824.
+Package xcolor Warning: Incompatible color definition on input line 826.
 
 
-Package xcolor Warning: Incompatible color definition on input line 832.
+Package xcolor Warning: Incompatible color definition on input line 834.
 
 
-Package xcolor Warning: Incompatible color definition on input line 836.
+Package xcolor Warning: Incompatible color definition on input line 838.
 
 
-Package xcolor Warning: Incompatible color definition on input line 836.
+Package xcolor Warning: Incompatible color definition on input line 838.
 
 [10]
 
-Package xcolor Warning: Incompatible color definition on input line 869.
-
-
-Package xcolor Warning: Incompatible color definition on input line 883.
-
-
-Package xcolor Warning: Incompatible color definition on input line 883.
+Package xcolor Warning: Incompatible color definition on input line 871.
 
 
 Package xcolor Warning: Incompatible color definition on input line 885.
 
 
-Package xcolor Warning: Incompatible color definition on input line 889.
+Package xcolor Warning: Incompatible color definition on input line 885.
 
 
-Package xcolor Warning: Incompatible color definition on input line 889.
+Package xcolor Warning: Incompatible color definition on input line 887.
 
 
-Package xcolor Warning: Incompatible color definition on input line 910.
+Package xcolor Warning: Incompatible color definition on input line 891.
 
 
-Package xcolor Warning: Incompatible color definition on input line 915.
+Package xcolor Warning: Incompatible color definition on input line 891.
 
 
-Package xcolor Warning: Incompatible color definition on input line 915.
+Package xcolor Warning: Incompatible color definition on input line 912.
+
+
+Package xcolor Warning: Incompatible color definition on input line 917.
+
+
+Package xcolor Warning: Incompatible color definition on input line 917.
 
 [11]
 
-Package xcolor Warning: Incompatible color definition on input line 931.
+Package xcolor Warning: Incompatible color definition on input line 933.
 
 
-Package xcolor Warning: Incompatible color definition on input line 936.
+Package xcolor Warning: Incompatible color definition on input line 938.
 
 
-Package xcolor Warning: Incompatible color definition on input line 936.
+Package xcolor Warning: Incompatible color definition on input line 938.
 
 
-Package xcolor Warning: Incompatible color definition on input line 980.
-
-
-Package xcolor Warning: Incompatible color definition on input line 994.
-
-
-Package xcolor Warning: Incompatible color definition on input line 994.
-
-
-Package xcolor Warning: Incompatible color definition on input line 994.
-
-[12]
-
-Package xcolor Warning: Incompatible color definition on input line 994.
-
-
-Package xcolor Warning: Incompatible color definition on input line 994.
+Package xcolor Warning: Incompatible color definition on input line 982.
 
 
 Package xcolor Warning: Incompatible color definition on input line 996.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1000.
+Package xcolor Warning: Incompatible color definition on input line 996.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1000.
+Package xcolor Warning: Incompatible color definition on input line 996.
+
+[12]
+
+Package xcolor Warning: Incompatible color definition on input line 996.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1009.
+Package xcolor Warning: Incompatible color definition on input line 996.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1014.
+Package xcolor Warning: Incompatible color definition on input line 998.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1014.
+Package xcolor Warning: Incompatible color definition on input line 1002.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1022.
+Package xcolor Warning: Incompatible color definition on input line 1002.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1026.
+Package xcolor Warning: Incompatible color definition on input line 1011.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1026.
+Package xcolor Warning: Incompatible color definition on input line 1016.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1034.
+Package xcolor Warning: Incompatible color definition on input line 1016.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1038.
+Package xcolor Warning: Incompatible color definition on input line 1024.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1038.
+Package xcolor Warning: Incompatible color definition on input line 1028.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1028.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1036.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1040.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1040.
 
 [13]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14] [15] [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1244.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1244.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1246.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1246.
 (./causal-inference-intro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1244.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1244.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1246.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1246.
 
 Package rerunfilecheck Info: File `causal-inference-intro.out' has not changed.
 
 (rerunfilecheck)             Checksum: 100A44185F4CB8D87E439901274225B3;3517.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1244.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1246.
  ) 
 Here is how much of TeX's memory you used:
  27582 strings out of 493014
  516634 string characters out of 6133351
- 621109 words of memory out of 5000000
+ 621290 words of memory out of 5000000
  30428 multiletter control sequences out of 15000+600000
  70903 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1644,10 +1644,10 @@ pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on causal-inference-intro.pdf (16 pages, 303928 bytes).
+Output written on causal-inference-intro.pdf (16 pages, 305268 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
+ 299 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
  87 named destinations out of 1000 (max. 500000)
  14477 words of extra memory for PDF output out of 17280 (max. 10000000)
 

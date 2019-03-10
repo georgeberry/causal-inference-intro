@@ -1,6 +1,6 @@
 ---
 title: "A chill intro to causal inference via propensity scores"
-author: "George Berry, Cornell University"
+author: "George Berry (geb97@cornell.edu, \\@george_berry)"
 date: "3/9/2019, version 1.0"
 output:
   pdf_document:
