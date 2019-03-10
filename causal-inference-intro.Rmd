@@ -1,7 +1,7 @@
 ---
 title: "A chill intro to causal inference via propensity scores"
 author: "George Berry (geb97@cornell.edu, \\@george_berry)"
-date: "3/9/2019, version 1.0"
+date: "3/10/2019, version 1.0.1"
 output:
   pdf_document:
     fig_caption: yes
@@ -15,9 +15,11 @@ bibliography: ci.bib
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(tidyverse)
-set.seed(1234)
 ```
+
+## Abstract
+
+Observational causal inference is hard. This introduction aims to present causal inference in an accessible and straightforward way, with terminology familiar to information scientists. Particular attention is devoted to propensity scores, which are a commonly used method and also a frequent subject of confusion. Simulations demonstrate the key arguments, and pointers to reference material are provided.
 
 ## Introduction
 
@@ -172,7 +174,7 @@ We want to understand the effect $D \to Y$. To do this, Pearl [-@pearl_causality
 
 The BDC has a big advantage: you can often check visually whether the assumed causal model represented by a causal graph satisfies the BDC. I like to do this in a quiet coffee shop, with pen and paper in my unlined notebook from Norway. If it's hard, there's even software to do it for you automatically (check out the [`dagitty`](https://cran.r-project.org/web/packages/dagitty/index.html) R package). On the other hand, I have no idea how to directly check that assumptions satisfy the CIA.
 
-Let's take another look at the causal graph we previewed earlier, where $X$ causes the treatment $D$ and outocme $Y$, and the treatment $D$ causes $Y$.
+Let's take another look at the causal graph we previewed earlier, where $X$ causes the treatment $D$ and outcome $Y$, and the treatment $D$ causes $Y$.
 
 \begin{figure}[h]
 \begin{center}
@@ -217,11 +219,11 @@ Note that you can also do **propensity score matching** using a package such as 
 
 In these simulations, the true effect of $D$ on $Y$ is 1/2.
 
-\newpage
-
 Here's some setup code.
 
-```{r}
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+set.seed(1234)
 ATE_propensity = function(Y, D, propensity) {
     return(
         mean(Y * D / propensity) - mean(Y * (1 - D) / (1 - propensity))
@@ -315,8 +317,6 @@ CB is named after **colliders**, which are features along a backdoor path which 
 
 It's easy to remember collider bias because, in this example, it kinda looks like a Star Trek communicator.
 
-\newpage
-
 ```{r}
 Ux = rnorm(N)
 Uy = rnorm(N)
@@ -386,6 +386,8 @@ print(cor.test(df$D, df$M))
 ```
 
 Now, let's condition on values of the collider $M$. We'll condition on values of $X$ greater than 1, and then greater than 2. In both cases, we see that our intuition proves correct: conditioning on values of a collider induces correlation among its causes.
+
+\newpage
 
 ```{r}
 df_collider = df %>% filter(X > 1)
