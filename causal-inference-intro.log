@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAR 2019 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAR 2019 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1654,7 +1654,7 @@ pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on causal-inference-intro.pdf (16 pages, 305396 bytes).
+Output written on causal-inference-intro.pdf (16 pages, 305403 bytes).
 PDF statistics:
  304 PDF objects out of 1000 (max. 8388607)
  270 compressed objects within 3 object streams

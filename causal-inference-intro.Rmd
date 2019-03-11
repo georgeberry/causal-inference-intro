@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Abstract
 
-Observational causal inference is hard. This introduction aims to present causal inference in an accessible and straightforward way, with terminology familiar to information scientists. Particular attention is devoted to propensity scores, which are a commonly used method and also a frequent subject of confusion. Simulations demonstrate the key arguments, and pointers to reference material are provided.
+Observational causal inference is hard. This introduction aims to present causal inference in an accessible and straightforward way, with terminology familiar to information scientists. Particular attention is devoted to propensity score methods, which are commonly used and also a frequent subject of confusion. Simulations demonstrate the key arguments, and pointers to reference material are provided.
 
 ## Introduction
 
