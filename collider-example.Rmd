@@ -1,0 +1,106 @@
+---
+title: "Collider example"
+author: "George Berry"
+date: "3/15/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### Setup and generate simulation
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+set.seed(42)
+N = 10000
+# X and D cause Y
+# X -> Y <- D
+D = rnorm(N)
+X = rnorm(N)
+Y = 1/2 * D + 1/2 * X + rnorm(N)
+df = data.frame(
+    D=D,
+    X=X,
+    Y=Y
+)
+```
+
+#### Population correlation between $D$ and $X$
+```{r}
+cor.test(df$D, df$X)
+```
+
+#### Correlation between $D$ and $X$ after conditioning on $Y$
+```{r}
+collider_df = df %>% filter(Y > 1)
+cor.test(collider_df$D, collider_df$X)
+```
+
+#### Population correlation between $D$ and $Y$
+
+```{r}
+cor.test(df$D, df$Y)
+```
+
+#### Correlation between $D$ and $Y$ after conditioning on $Y$
+
+```{r}
+cor.test(collider_df$D, collider_df$Y)
+```
+
+#### Visualize
+
+```{r}
+collider_df = df %>% filter(Y > 1)
+cor_df = data.frame(
+    name=c(
+        'cor(D, X)',
+        'cor(D, X)',
+        'cor(D, Y)',
+        'cor(D, Y)'
+    ),
+    category=c(
+        'Population',
+        'Given Y > 1',
+        'Population',
+        'Given Y > 1'
+    ),
+    val=c(
+        cor(df$D, df$X),
+        cor(collider_df$D, collider_df$X),
+        cor(df$D, df$Y),
+        cor(collider_df$D, collider_df$Y)
+    ),
+    ucl=c(
+        cor.test(df$D, df$X)$conf.int[1],
+        cor.test(collider_df$D, collider_df$X)$conf.int[1],
+        cor.test(df$D, df$Y)$conf.int[1],
+        cor.test(collider_df$D, collider_df$Y)$conf.int[1]
+    ),
+    lcl=c(
+        cor.test(df$D, df$X)$conf.int[2],
+        cor.test(collider_df$D, collider_df$X)$conf.int[2],
+        cor.test(df$D, df$Y)$conf.int[2],
+        cor.test(collider_df$D, collider_df$Y)$conf.int[2]
+    )
+)
+```
+
+```{r}
+cor_df %>%
+    ggplot(aes(x=name, y=val, color=category)) +
+    geom_hline(yintercept=0, linetype='dashed', alpha=0.4) +
+    geom_point(position=position_dodge(width=0.3)) +
+    geom_errorbar(
+        aes(ymin=lcl, ymax=ucl),
+        position=position_dodge(width=0.3),
+        width=0.3
+    ) +
+    ylim(-0.5, 0.5) +
+    theme_minimal() +
+    theme(
+        panel.grid.minor=element_blank()
+    )
+```
