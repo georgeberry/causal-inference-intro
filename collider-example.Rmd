@@ -1,9 +1,11 @@
 ---
 title: "Collider example"
-author: "George Berry"
+author: "George Berry, geb97 at cornell.edu, @george_berry"
 date: "3/15/2019"
 output: html_document
 ---
+
+### [You can find the source code to this simulation here](https://github.com/georgeberry/causal-inference-intro)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -67,7 +69,7 @@ cor_df = data.frame(
         'Population',
         'Given Y > 1'
     ),
-    val=c(
+    correlation=c(
         cor(df$D, df$X),
         cor(collider_df$D, collider_df$X),
         cor(df$D, df$Y),
@@ -90,7 +92,7 @@ cor_df = data.frame(
 
 ```{r}
 cor_df %>%
-    ggplot(aes(x=name, y=val, color=category)) +
+    ggplot(aes(x=name, y=correlation, color=category)) +
     geom_hline(yintercept=0, linetype='dashed', alpha=0.4) +
     geom_point(position=position_dodge(width=0.3)) +
     geom_errorbar(

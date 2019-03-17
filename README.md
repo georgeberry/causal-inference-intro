@@ -6,6 +6,8 @@ An Rmarkdown notebook generates this pdf, and also conducts some simulations alo
 
 [You can find the PDF right here in this repo](https://github.com/georgeberry/causal-inference-intro/blob/master/causal-inference-intro.pdf) or on [SocArXiv](https://osf.io/preprints/socarxiv/ncvqs/).
 
+For the short example of collider bias, you can find the [rendered notebook at RPubs](http://rpubs.com/georgeberry/collider-bias).
+
 ### This is a work in progress
 
 Please contact me at `geb97@cornell.edu` or message me on Twitter `@george_berry` if you find errors, or find elements unclear.
